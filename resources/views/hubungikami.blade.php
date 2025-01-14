@@ -37,7 +37,7 @@
         <!-- Form Section -->
         <div class="container py-5 text-muted" style="max-width: 860px;">
             <h2 class="mb-5 ms-5 fw-bold fs-4">KIRIM PESAN</h2>
-            <form id="hubungiKamiForm" action="/kirim-pesan" method="POST" class="row g-4 justify-content-center">
+            <form id="hubungiKamiForm" action="/" method="GET" class="row g-4 justify-content-center">
                 @csrf
                 <!-- Input Fields -->
                 <div class="col-md-5">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-md-10 d-flex justify-content-between align-items-center">
                     <!-- reCAPTCHA -->
-                    <div class="g-recaptcha" data-sitekey="6LcY-LUqAAAAANwJXDnIUT2Xs1w6_M4Q-5NzG3xH"></div>
+<div class="g-recaptcha" data-sitekey="6LetRrYqAAAAABjuLRv8vLrKvTTDExV1myux0QNb"></div>
                     <button type="submit" class="btn btn-outline-primary px-4 py-2 rounded-pill">KIRIM PESAN</button>
                 </div>
             </form>

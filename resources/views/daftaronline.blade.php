@@ -7,6 +7,7 @@
     <title>Inaklug - Daftar Online</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <style>
         body {
@@ -77,11 +78,8 @@
                                 </select>
                             </div>
                             <div class="mb-3 text-center">
-                                <img src="images/captcha_logo.png" alt="Captcha" style="max-width: 10%; height: auto;" class="mb-3">
+                                <div class="g-recaptcha" data-sitekey="6LetRrYqAAAAABjuLRv8vLrKvTTDExV1myux0QNb"></div>
                                 <div class="form-check d-inline-block">
-                                    <input type="checkbox" class="form-check-input" id="not-robot" required>
-                                    <label class="form-check-label" for="not-robot">I am not a robot</label>
-                                </div>
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Daftar Sekarang</button>
                         </form>
