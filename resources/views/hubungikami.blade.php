@@ -30,7 +30,7 @@
     <main>
         <!-- Hero Section -->
         <div class="position-relative mt-5" style="height: 450px;">
-            <img src="{{ asset('images/dresden2.jpg') }}" alt="" class="w-100 h-100" style="object-fit: cover;">
+            <img src="{{ asset('images/manchestercentrallibrary.jpg') }}" alt="" class="w-100 h-100" style="object-fit: cover;">
             <h1 class="position-absolute text-white" style="left: 9%; top: 75%; font-size: 2rem;">Hubungi Kami</h1>
         </div>
 
